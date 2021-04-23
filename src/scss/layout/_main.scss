@@ -1,0 +1,28 @@
+.page__main {
+  color: $color-primary;
+  width: 100%;
+  padding: 15px 30px;
+  &--section {
+    margin-bottom: 20px;
+  }
+}
+.section__title {
+  padding-bottom: 10px;
+  font-size: 36px;
+}
+.section__list {
+  padding-left: 40px;
+  &--2 {
+    padding-left: 40px;
+  }
+}
+.article__paragraph {
+  padding: 10px 0;
+}
+.article__code {
+  color: white;
+}
+.code-container {
+  background-color: $color-primary;
+  padding: 20px 10px;
+}
