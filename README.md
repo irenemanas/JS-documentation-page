@@ -2,7 +2,7 @@
 
 # Build a Technical Documentation Page
 
-This is a project from FreeCodeCamp to build a app. I have given it my personal style and used **HTML** and **SASS** preprocessor to complete this project. I have fulfilled the following **user stories** in order to get all of the test to pass:
+This is a project from FreeCodeCamp to build an app. I have given it my personal style and used **HTML** and **SASS** preprocessor to complete this project. I have fulfilled the following **user stories** in order to get all of the test to pass:
 
 **User Story #1:** I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
 
