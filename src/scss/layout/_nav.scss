@@ -1,10 +1,13 @@
 #navbar {
   width: 100%;
+  @media all and (min-width: 816px) {
+    grid-column: 1/2;
+  }
 }
+
 .navbar__title {
   font-size: 36px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding: 30px 5px;
   text-align: center;
   color: $color-primary;
 }
@@ -15,10 +18,19 @@
   overflow-y: scroll;
   &--element {
     border-bottom: 2px white solid;
+    display: flex;
+    align-items: center;
     padding: 16px 30px;
     height: 60px;
   }
+  @media all and (min-width: 816px) {
+    height: 90vh;
+    &--element {
+      height: 70px;
+    }
+  }
 }
+
 .nav-link {
   text-decoration: none;
   color: white;

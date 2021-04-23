@@ -2,12 +2,22 @@
   color: $color-primary;
   width: 100%;
   padding: 15px 30px;
+  line-height: 1.5;
   &--section {
     margin-bottom: 20px;
   }
+  @media all and (min-width: 816px) {
+    grid-column: 2/3;
+    height: 100vh;
+    overflow-y: scroll;
+  }
 }
+
 .section__title {
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: $color-primary;
+  padding-bottom: 5px;
   font-size: 36px;
 }
 .section__list {
@@ -17,7 +27,7 @@
   }
 }
 .article__paragraph {
-  padding: 10px 0;
+  padding: 15px 0;
 }
 .article__code {
   color: white;
